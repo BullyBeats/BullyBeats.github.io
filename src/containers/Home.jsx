@@ -20,6 +20,7 @@ import {
   PROFILEPIC,
   SOUNCLOUD,
   INSTAGRAM,
+  RESUMELINK,
 } from 'config.json';
 
 const Home = (props) => {
@@ -28,13 +29,13 @@ const Home = (props) => {
   useEffect(() => {
     const loadingdiv = document.getElementById('pt-loader-container');
     loadingdiv && loadingdiv.parentNode.removeChild(loadingdiv);
-    if (history.location.search.includes('portfolio')) {
-      window.scrollTo(0, window.innerHeight);
-    }
     APICaller({
       reqUrl: 'https://601fd327e3e55e0017f479ad.mockapi.io/links',
     }).then((response) => {
       setTracks(response.data);
+      if (history.location.search.includes('portfolio')) {
+        window.scrollTo(0, window.innerHeight);
+      }
     });
   }, [history]);
   const onClickPortfolio = () => {
@@ -55,7 +56,7 @@ const Home = (props) => {
 
             <div style={{ display: 'flex' }}>
               <a
-                href='#/resume'
+                href={RESUMELINK}
                 target='_blank'
                 rel='noopener noreferrer'
                 className='designation'
