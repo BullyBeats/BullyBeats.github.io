@@ -1,0 +1,55 @@
+@import 'colors';
+
+// ipad targeting
+// @media (min-width: 768px) and (max-width: 991px) {
+@media (max-width: 991px) {
+  .Home_banner {
+    align-items: center;
+    justify-content: flex-start;
+  }
+}
+
+// mobile view - corresponds to bootstrap xs devices
+@media (max-width: 767px) {
+  .Skills .SkillsCard {
+    width: 23%;
+    padding-bottom: 23%;
+  }
+}
+
+@media (max-width: 639px) {
+  .Home .img-border {
+    height: 300px;
+    width: 300px;
+  }
+  .Home_track {
+    display: unset;
+    .track_text,
+    .Iframe {
+      width: 100%;
+    }
+  }
+}
+
+// small mobile
+@media (max-width: 430px) {
+  .app-container {
+    width: 95%;
+  }
+
+  .Portfolio {
+    .my-masonry-grid {
+      margin-left: 0px; /* gutter size offset */
+    }
+    .my-masonry-grid_column {
+      padding-left: 0px; /* gutter size */
+    }
+  }
+  .Skills {
+    padding: 10px 1%;
+    .SkillsCard {
+      width: 48%;
+      padding-bottom: 48%;
+    }
+  }
+}

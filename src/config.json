@@ -1,0 +1,39 @@
+{
+  "DISPLAYNAME": "Bully Beats",
+  "EMAIL": "bullybeats12@gmail.com",
+  "PHONE": "+91 805 361 5867",
+  "GITUSER": "BullyBeats",
+  "YOUTUBE": "https://www.youtube.com/channel/UCoA7DgxzJwlqaQgr6FO8BMg",
+  "GITHUB": "https://github.com/BullyBeats",
+  "INSTAGRAM": "https://www.instagram.com/bullymusic_/",
+  "FACEBOK": "https://www.facebook.com/bullyjaat/",
+  "SOUNCLOUD": "https://soundcloud.com/bullyjaat",
+  "PROFILEPIC": "https://res.cloudinary.com/ddvaiwvwr/image/upload/v1612691682/14980796_335233703503675_3853809913274302241_n_mx5dui.jpg",
+  "PERSONAS": [
+    "All-Star Dev",
+    "Researcher",
+    "Hacker",
+    "Systems Fanatic"
+  ],
+  "SKILLS": [
+    "JavaScript",
+    "React",
+    "Redux",
+    "Redux-saga",
+    "ReactNative",
+    "D3.JS",
+    "Storybook.JS",
+    "Redux-form",
+    "HTML",
+    "CSS",
+    "SCSS",
+    "React-Bootstrap",
+    "MongoDB",
+    "Github",
+    "Git",
+    "Visual Studio",
+    "Linux",
+    "Mac OS",
+    "Socket.IO"
+  ]
+}
