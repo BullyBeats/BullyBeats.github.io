@@ -27,12 +27,12 @@ const Home = (props) => {
   const [tracks, setTracks] = useState([]);
   let { history } = props;
   useEffect(() => {
-    const loadingdiv = document.getElementById('pt-loader-container');
-    loadingdiv && loadingdiv.parentNode.removeChild(loadingdiv);
     APICaller({
       reqUrl: 'https://601fd327e3e55e0017f479ad.mockapi.io/links',
     }).then((response) => {
       setTracks(response.data);
+      const loadingdiv = document.getElementById('pt-loader-container');
+      loadingdiv && loadingdiv.parentNode.removeChild(loadingdiv);
       if (history.location.search.includes('portfolio')) {
         window.scrollTo(0, window.innerHeight);
       }
