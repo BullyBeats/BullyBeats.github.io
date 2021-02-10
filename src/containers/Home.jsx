@@ -60,7 +60,11 @@ const Home = (props) => {
                 target='_blank'
                 rel='noopener noreferrer'
                 className='designation'
-                style={{ marginRight: 16, color: 'white', background: 'navy' }}
+                style={{
+                  marginRight: 16,
+                  color: 'white',
+                  background: '#f50',
+                }}
               >
                 Resume
               </a>
@@ -69,7 +73,7 @@ const Home = (props) => {
                 className='designation'
                 style={{
                   color: 'white',
-                  background: 'navy',
+                  background: '#f50',
                   cursor: 'pointer',
                 }}
               >
