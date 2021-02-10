@@ -63,7 +63,7 @@ const Home = (props) => {
                 style={{
                   marginRight: 16,
                   color: 'white',
-                  background: '#f50',
+                  background: 'rgb(255, 93, 11)',
                 }}
               >
                 Resume
@@ -73,7 +73,7 @@ const Home = (props) => {
                 className='designation'
                 style={{
                   color: 'white',
-                  background: '#f50',
+                  background: 'rgb(255, 93, 11)',
                   cursor: 'pointer',
                 }}
               >
